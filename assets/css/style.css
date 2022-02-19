@@ -1,0 +1,88 @@
+@font-face {
+        font-family: fontName;
+        src: url(assets/fonts/Gilroy-ExtraBold.otf);
+        src: url(assets/fonts/Gilroy-Light.otf);
+        src: url(assets/fonts/Roboto-Bold.ttf);
+        src: url(assets/fonts/roboto-medium.ttf);
+        src: url(assets/fonts/roboto-regular.ttf);
+}
+* {
+        margin: 0;
+        padding: 0;
+}
+body {
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 400;
+        font-family: "roboto-regular", sans-serif;
+        color: #ffffff;
+}
+p {
+        font-weight: 400;
+        line-height: 30px;
+        font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+        color: #ffffff;
+        font-family: "Gilroy-ExtraBold", sans-serif;
+        font-weight: 900;
+        margin: 0;
+}
+
+a,
+a:hover,
+a:focus {
+        transition: all 0.3s ease-in-out;
+        text-decoration: none;
+        outline: none;
+}
+ol,
+ul {
+        margin: 0;
+        padding: 0;
+}
+ol li,
+ul li {
+        list-style: outside none none;
+        list-style-type: none;
+}
+select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        text-indent: 1px;
+        text-overflow: '';
+}
+.padding-none {
+        padding: 0px;
+}
+.padding-right {
+        padding-right: 0px;
+}
+.padding-left {
+        padding-left: 0px;
+}
+.ml-15 {
+        margin-left: 15px;
+}
+#header{
+  background: url(/assets/images/home/header-bg.png) no-repeat 100% 100%;
+    background-size: cover;
+    height: 713px;
+    position: relative;
+    top: -2px;
+}
+.font-Gilroy{
+       font-family: "Gilroy-ExtraBold";
+}
+.fs-31{
+   font-size: 31px;     
+}
+.navbar-light .navbar-toggler {
+    color: #fff;
+}
