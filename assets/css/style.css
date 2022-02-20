@@ -236,9 +236,6 @@ font: normal normal 400 20px/34px Roboto;
     padding-right: 0;
     margin: 0 auto;
 }
-.team_box_right__item{
-   
-}
 .d-grid{
    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -307,6 +304,85 @@ opacity: 0.9;
     justify-content: center;
     margin-top: 56px;
 }
-
-
+.steps_item_box{
+    box-shadow: 6px 6px 2px #6184D8;
+    border-radius: 20px;    
+}
 /*end step section*/
+
+/*advertise_section*/
+.advertise_section{
+background-color: #08083d;
+    padding-bottom: 110px;
+}
+.advertise_section h1{
+  font: normal normal 800 50px/65px Gilroy;      
+}
+.advertise_section  p{
+  font: normal normal normal 21px/29px Roboto;
+  max-width: 700px;
+}
+/*end advertise_section*/
+/*success_stories__section*/
+.success_stories__section img{
+        height: 164px;
+        object-fit: cover;
+        border-radius: 0;
+}
+.success_stories__section h1{
+        font: normal normal 800 50px/49px Gilroy;
+}
+.success_stories__section  p{
+  font: normal normal medium 24px/49px Roboto;      
+}
+.success_stories__section .card-img-overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*end success_stories__section*/
+
+/*testimonials grid*/
+.testimonials_grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+.green-bg{
+        background-color: #23CE6B;
+}
+.bg-2{
+    background-color:#08083D;
+}
+.bg-3{
+    background-color:#6184D8;
+}
+.bg-4{
+    background-color:#08083D;
+}
+.testimonials_grid .grid_item{
+    padding: 75px 0;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;    
+}
+.testimonials_grid .grid_item h3{
+    font: normal normal bold 27px/49px Roboto;    
+}
+.testimonials_grid .grid_item p{
+  font: normal normal normal 16px/24px Roboto;      
+}
+
+
+
+/*end testimonials_grid*/
+
+
+@media  screen and (min-width: 1920px) {
+        .jumbotron {
+      padding: 0;
+      background: rgb(8, 8, 61);
+    }
+
+}
