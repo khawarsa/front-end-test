@@ -81,6 +81,17 @@ ul li {
 .navbar-light .navbar-toggler {
     color: #fff;
 }
+.navbar-nav .nav-item{
+        margin-right: 1rem;
+}
+.navbar-nav .nav-item a{
+  font: normal normal 300 16px/19px Gilroy;      
+}
+.navbar-nav .nav-item  .btn-contact{
+   background: #23CE6B 0% 0% no-repeat padding-box;
+border-radius: 5px;     
+}
+
 .navbar-nav .nav-link{
   font: normal normal 300 16px/19px Gilroy;  
 }
@@ -112,6 +123,9 @@ ul li {
 /*jumbotron*/
 .hero_text p{
        font: normal normal normal 24px/34px Roboto; 
+}
+.jumbotron .img-brand{
+        transform: scale(1.4) translateX(0) translateY(0%);
 }
 /*end jumbotron*/
 
@@ -374,10 +388,59 @@ background-color: #08083d;
   font: normal normal normal 16px/24px Roboto;      
 }
 
-
-
 /*end testimonials_grid*/
 
+/*guarantee section*/
+.guarantee_section{
+  background: transparent linear-gradient(114deg, #6184D8 0%, #08083D 100%) 0% 0% no-repeat padding-box;
+}
+.guarantee_section h1{
+        font: normal normal 800 50px/49px Gilroy;
+}
+.guarantee_section .text{
+        max-width: 932px;
+        margin: 0 auto;
+        font: normal normal normal 21px/30px Roboto;
+}
+/*end guarantee_section*/
+
+/*ctr_section*/
+.ctr_section p{
+   font: normal normal 500 24px/49px Roboto;     
+}
+.ctr_section h1{
+        font: normal normal 800 50px/65px Gilroy;
+}
+/*end ctr_section*/
+/* footer */
+.footer-bg img{
+        border-radius: 0;
+}
+.footer-bg .address{
+  white-space: nowrap;      
+}
+.social_list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer_bottom li,
+.social_list li{
+        margin-left: 1rem;
+}
+.footer_bottom{
+  display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer-bg{
+        height: 230px;
+}
+/**/
 
 @media  screen and (min-width: 1920px) {
         .jumbotron {
