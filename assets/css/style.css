@@ -127,6 +127,9 @@ border-radius: 5px;
 .jumbotron .img-brand{
         transform: scale(1.4) translateX(0) translateY(0%);
 }
+.jumbotron .m-view{
+        display: none;
+}
 /*end jumbotron*/
 
 /*list section*/
@@ -448,4 +451,56 @@ background-color: #08083d;
       background: rgb(8, 8, 61);
     }
 
+}
+
+/********** Medium devices only **********/
+@media (min-width:992px) and (max-width:1199px) {
+
+}
+/********** Small devices only **********/
+@media (min-width:768px) and (max-width:991px) {
+
+    }
+
+/********** Extra small devices only **********/
+@media (max-width:767px) {
+  .jumbotron .d-view{
+        display: none;
+  }
+    .jumbotron .m-view{
+        display: block;
+        margin-top: 1rem;
+  }
+  .jumbotron .img-brand{
+        transform: scale(1) translateX(0) translateY(0%);
+  }
+  .jumbotron .vh-80 {
+    height: 100%;
+  }
+  .list-section h1,
+  .hero_text .h1{
+     font-size: 32px;
+     line-height: 1.2;
+  }
+  #header {
+    height: 100%;
+    position: relative;
+    top: 0;
+}
+#header .container{
+  align-items: center;
+    justify-content: center;
+}
+.navbar-light .navbar-toggler {
+    position: relative;
+    right: 10%;
+}
+.hero_text p ,
+.hero_text .btn{
+    font-size: 18px;
+}
+}
+
+/********** Super extra small devices Only :slightly_smiling_face: (e.g., iPhone 4) **********/
+@media (max-width:479px) {
 }
