@@ -54,6 +54,9 @@ ul li {
 .ml-15 {
         margin-left: 15px;
 }
+.mt-44{
+        margin-top: 44px;
+}
 .vh-80{
         height: 80vh;
 }
@@ -224,4 +227,86 @@ font: normal normal 400 20px/34px Roboto;
 .team_section p{
         font: normal normal normal 21px/34px Roboto;
 }
+.team_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.team_box_left__item{
+      padding-left: 17%;
+    padding-right: 0;
+    margin: 0 auto;
+}
+.team_box_right__item{
+   
+}
+.d-grid{
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.team_section #img1{
+ grid-column: 1 /span 4;
+    grid-row: 1 / span 2;
+    overflow: hidden;
+    align-self: center;
+}
+.team_section #img2{
+   grid-column: 3 /span 6;
+    grid-row: 1 / span 2;
+    overflow: hidden;
+}
 /*end team section*/
+
+/*services section*/
+.services_section h1{
+        font: normal normal 800 50px/75px Gilroy; 
+        color: #08083D;
+}
+.services_section .card-title{
+        color: #08083D;
+        font: normal normal bold 27px/49px Roboto;
+}
+.services_section .card-text{
+        font: normal normal normal 21px/29px Roboto;
+        color: #08083D;
+}
+
+/* end services section */
+
+/*step section*/
+.steps_section{
+        background: transparent linear-gradient(139deg, #6184D8 0%, #08083D 100%) 0% 0% no-repeat padding-box;
+opacity: 0.9;
+}
+.steps_box {
+    max-width: 770px;
+    margin: 0 auto;
+}
+.steps_section h1{
+   font: normal normal 800 50px/49px Gilroy;      
+}
+.step_text{
+        color: #23CE6B;
+        font: normal normal 800 27px/49px Gilroy;
+}
+.steps_box h1{
+  font: normal normal 800 45px/29px Gilroy;   
+}
+.steps_box p{
+    font: normal normal medium 21px/29px Roboto;    
+}
+.step_circle{
+    width: 115px;
+    height: 115px;
+    background: transparent linear-gradient(328deg, #4D80FB 0%, #23CE6B 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+
+/*end step section*/
