@@ -87,3 +87,141 @@ ul li {
 .btn-green{
   background-color:#23CE6B ;
 }
+.btn-shadow{
+  box-shadow: 0px 8px 8px #23CE6B80;
+}
+.btn-roboto{
+        font: normal normal bold 24px/30px Roboto;
+}
+.btn-space{
+        padding: 12px 24px 12px 24px;
+}
+.br-100{
+  border-radius: 100px;
+}
+.ptb-70{
+        padding: 70px 0;
+}
+.container-xxl{
+
+}
+
+/*jumbotron*/
+.hero_text p{
+       font: normal normal normal 24px/34px Roboto; 
+}
+/*end jumbotron*/
+
+/*list section*/
+.list-section{
+        position: relative;
+}
+.list-section h1{
+        font: normal normal 800 50px/40px Gilroy;
+       color: #08083D;
+       padding-top: 35px;
+    padding-bottom: 35px;
+}
+.list-section ul li{
+        font: normal normal bold 24px/49px Roboto;
+        color: #08083D;
+}
+.list_box{
+   margin: 0 auto;
+  max-width: 634px;
+}
+.list-section img{
+   height: 638px;
+}
+.list_box ul li::before{
+  content:url('../../assets/images/home/check.svg');  
+  position:relative;  
+  z-index:100000;  
+  left:-40px;
+  top:0;
+}
+
+/*end list section*/
+
+/*mall section*/
+.mall_section{
+   background: rgb(8 8 61);  
+}
+.mall_section h1{
+   font: normal normal 800 50px/65px Gilroy;    
+}
+.mall_box{
+  margin: 0 auto;
+  max-width: 1210px;
+}
+.carousel-focus {
+  padding-bottom: 70px;
+}
+.carousel-focus .carousel-focus-inner {
+  height: 100%;
+  position: relative;
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-item {
+  position: absolute;
+  display: inline-block;
+  width: 307px;
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-item img{
+  object-fit: cover;
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-item:first-of-type {
+  left: 0;
+  transform: translate(0, 25%);
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-item:first-of-type img{
+  opacity: 0.6;      
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-item:nth-of-type(2) {
+  left: 50%;
+  transform: translate(-50%, 10%);
+  width: 398px;
+  height: 398px;
+  z-index: 1;
+  opacity: 1;
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-item:nth-of-type(3) {
+  right: 0;
+  transform: translate(0, 25%);
+  
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-item:nth-of-type(3) img{
+    opacity: 0.6;    
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-item:nth-child(n+4) {
+  display: none;
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-item img {
+  width: 100%;
+  height: auto;
+}
+.carousel-focus .carousel-focus-inner .carousel-focus-controls {
+  position: absolute;
+  z-index: 1;
+  bottom: -10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.carousel-focus p{
+font: normal normal 400 20px/34px Roboto;
+}
+/*end mall seection*/
+
+/*team section*/
+.team_section{
+  background: rgba(97, 132, 216,0.9);
+}
+.team_section h1{
+        font: normal normal 800 50px/70px Gilroy;
+}
+.green-text{
+       color:#23CE6B;
+}
+.team_section p{
+        font: normal normal normal 21px/34px Roboto;
+}
+/*end team section*/
